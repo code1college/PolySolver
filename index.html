@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/jpeg" href="Logo.jpeg">
+        <title>PolySolver</title>
+        <script src="main.js"></script>
+        <script src="synth.js"></script>
+        <script src="utils.js"></script>
+    </head>
+    <header>
+        <h1>PolySolver</h1>
+    </header>
+    <body>
+        <input type="text" placeholder="Term of Polynomial: " id="termInput" width="100%" height="100%">
+        <button onclick="submitTerms()" width="100%" height="100%" class="add">Submit Term</button>
+        <button onclick="deleteTerms()" width="100%" height="100%" id="noadd">Delete Term</button>
+        <br>
+        <br>
+        <input type="text" placeholder="Divisor of Polynomial: " id="divisorInput" width="100%" height="100%">
+        <button onclick="submitDivisor()" width="100%" height="100%" class="add">Submit Divisor</button>
+        <br>
+        <br>
+        <p id="polyGiven"></p>
+        <p id="divisorGiven"></p>
+        <br>
+        <br>
+        <button onclick="compute()" width="100%" height="100%" class="add">Compute</button>
+        <p id="newPolynomial"></p>
+    </body>
+</html>

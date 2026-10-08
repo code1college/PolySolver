@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+button, input {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input {
+    width: 155px;
+    height: 50px;
+    font-size: medium;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+}
+
+.add {
+    background-color: green;
+    border: 2px solid darkgreen;
+    color: white;
+    font-size: large;
+}
+
+#noadd {
+    background-color: red;
+    border: 2px solid maroon;
+    color: white;
+    font-size: large;
+}
+
+#noadd:hover {
+    background-color: rgb(207, 90, 90);
+}
+
+.add:hover {
+    background-color: rgb(24, 187, 24);
+}
+
+#noadd:active, .add:active {
+    transform: translateY(5px);
+}
